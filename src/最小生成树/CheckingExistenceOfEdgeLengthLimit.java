@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
+// 测试链接 : https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/
 public class CheckingExistenceOfEdgeLengthLimit {
     public static int MAXN = 100001;
 
