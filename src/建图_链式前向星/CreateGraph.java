@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Code01_CreateGraph {
+public class CreateGraph {
     // 点的最大数量
     public static int MAXN = 11;
 
