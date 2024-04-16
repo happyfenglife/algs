@@ -70,7 +70,7 @@ public class Kruskal {
                 }
             }
 
-            System.out.println(cnt == n - 1 ? ans : "orz");
+            out.println(cnt == n - 1 ? ans : "orz");
         }
 
         out.flush();
