@@ -13,7 +13,7 @@ public class StickersToSpellWord {
 
     public static List<List<String>> graph = new ArrayList<>();
 
-    public static HashSet<String> visited = new HashSet();
+    public static HashSet<String> visited = new HashSet<>();
 
     public static String strSort(String str) {
         char[] s = str.toCharArray();
