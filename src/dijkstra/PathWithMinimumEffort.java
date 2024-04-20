@@ -23,6 +23,10 @@ public class PathWithMinimumEffort {
         while (!heap.isEmpty()) {
             int[] cur = heap.poll();
             int x = cur[0], y = cur[1], w = cur[2];
+            if (visited[x][y]) {
+                continue;
+            }
+
             if (x == n - 1 && y == m - 1) {
                 return w;
             }
